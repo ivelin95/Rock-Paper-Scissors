@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" ></link>
+    <title>Rock Paper Scissors game</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+           <a href="#" class="newGameBtn">New Game</a>
+        </header>
+         <div class="buttons"> 
+             <img class="paper btn" src="paper.png" alt="paper" width="150px" height="150px">
+                
+             <img class="rock btn" src="rock.png" alt="rock" width="150px" height="150px">
+            <img class="scissor btn" src="scissor.png" alt="scissor" width="150px" height="150px">
+            <span class="winner"></span>
+         </div>
+         <div class="tbl">
+            <table class="tblRender">
+                <caption>Score</caption>
+                <tr >
+                  <td>Player</td>
+                  <td>Computer</td>
+                </tr>
+               <tr>
+                    <td class="playerResult">0</td>
+                    <td class="ComputerResult">0</td>
+                  </tr> 
+              </table>
+         </div>
+         <div class="buttonsPC">
+            <h6 class="comp"> </h6>
+            <img  id ="pic"  class="fadeIn" alt="paper" width="150px" height="150px">
+         </div>
+        
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
